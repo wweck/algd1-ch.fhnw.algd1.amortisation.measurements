@@ -1,0 +1,13 @@
+plugins {
+	id 'java'
+	id 'application'
+	id 'idea'
+}
+
+mainClassName = "ch.fhnw.algd1.simplearraylist.amortisation.Measure"
+applicationDefaultJvmArgs = ["-Xmx2g", "-Xms2g"]
+
+sourceCompatibility = 14
+targetCompatibility = 14
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
