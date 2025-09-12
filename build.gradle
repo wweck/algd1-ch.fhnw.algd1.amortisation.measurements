@@ -6,9 +6,8 @@ plugins {
 
 application {
 	mainClass = "ch.fhnw.algd1.simplearraylist.amortisation.Measure"
+	applicationDefaultJvmArgs = ["-Xmx2g", "-Xms2g"]
 }
-
-applicationDefaultJvmArgs = ["-Xmx2g", "-Xms2g"]
 
 java {
 	sourceCompatibility = JavaVersion.VERSION_21
